@@ -3,7 +3,7 @@ import os
 from datasets import load_dataset
 import joblib
 
-# Importing libraries
+# Importing libraries of Scikit Learn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
